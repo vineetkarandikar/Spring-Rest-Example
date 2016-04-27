@@ -1,9 +1,8 @@
 /*
 SQLyog Ultimate v10.00 Beta1
-MySQL - 5.5.27 : Database - climate_dashboard
+MySQL - 5.5.27 : Database - dashboard
 *********************************************************************
-*/
-
+*/
 /*!40101 SET NAMES utf8 */;
 
 /*!40101 SET SQL_MODE=''*/;
@@ -14,7 +13,7 @@ MySQL - 5.5.27 : Database - climate_dashboard
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 CREATE DATABASE /*!32312 IF NOT EXISTS*/`climate_dashboard` /*!40100 DEFAULT CHARACTER SET utf8 COLLATE utf8_bin */;
 
-USE `climate_dashboard`;
+USE `dashboard`;
 
 /*Table structure for table `health` */
 
