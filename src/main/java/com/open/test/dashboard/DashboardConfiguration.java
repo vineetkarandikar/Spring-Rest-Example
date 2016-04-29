@@ -24,6 +24,9 @@ public class DashboardConfiguration {
 
   @Value("${db.username}")
   private String userName;
+  
+  @Value("${db.password}")
+  private String password;
 
   @Bean(name = "dataSource")
   public DriverManagerDataSource dataSource() {
@@ -31,6 +34,7 @@ public class DashboardConfiguration {
     driverManagerDataSource.setDriverClassName(databaseDriverName);
     driverManagerDataSource.setUrl(host);
     driverManagerDataSource.setUsername(userName);
+    driverManagerDataSource.setPassword(password);
     return driverManagerDataSource;
   }
 }
